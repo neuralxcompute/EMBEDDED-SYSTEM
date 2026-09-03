@@ -1,0 +1,6 @@
+ESP32 Pin,Device,Signal/Function,Purpose
+GPIO 4,DHT11 DATA,Digital input,Temperature/humidity acquisition
+GPIO 34,MQ-2 AO,ADC input,Raw gas/smoke-related signal
+GPIO 26,Relay IN,Digital output,Fan control
+GPIO 21,OLED SDA,I2C data,Display communication
+GPIO 22,OLED SCL,I2C clock,Display communication

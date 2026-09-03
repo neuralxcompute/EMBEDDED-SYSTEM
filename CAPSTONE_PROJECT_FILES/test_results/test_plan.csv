@@ -1,0 +1,10 @@
+Test,Requirement,Test Item,Procedure,Acceptance Criterion,Evidence,Status
+TC01,FR1,Power-on/startup,Power prototype and observe initialization,Firmware starts and relay initializes OFF,Serial/observation,Pass
+TC02,FR2,DHT11 acquisition,Read temperature/humidity,Valid values obtained,OLED/Serial,Pass
+TC03,FR3,MQ-2 acquisition,Read GPIO 34 ADC,ADC value obtained,OLED/Serial,Pass
+TC04,FR4,OLED display,Observe display fields,T/RH/gas/fan/mode visible,OLED photo,Pass
+TC05,FR5,AUTO threshold,Apply/observe threshold condition,Fan follows OR logic,Observed function,Pass
+TC06,FR6,Telemetry,Connect MQTT client and observe topic,Telemetry payload available,MQTT observation,Pass
+TC07,FR7-FR8,Remote commands,Send AUTO/ON/OFF,Mode/fan changes appropriately,MQTT observation,Pass
+TC08,FR9,MQTT recovery,Interrupt connection and observe retry,Firmware attempts reconnection,Recovery observation,Implemented
+TC09,FR10,Status,Connect to broker,ESP32 ONLINE published,MQTT observation,Pass

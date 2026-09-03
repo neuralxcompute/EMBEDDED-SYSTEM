@@ -1,0 +1,12 @@
+# Local credentials / secrets
+.env
+*.env
+secrets.h
+credentials.h
+config_local.h
+
+# Arduino generated files
+*.hex
+*.elf
+*.bin
+build/

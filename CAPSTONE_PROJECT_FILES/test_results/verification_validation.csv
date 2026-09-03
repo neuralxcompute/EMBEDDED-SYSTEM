@@ -1,0 +1,10 @@
+Objective,Target,Achievement,Evidence Basis
+O1,DHT11 temperature/humidity acquisition,Fully achieved,Functional evidence
+O2,MQ-2 ADC acquisition on GPIO 34,Fully achieved,Functional evidence
+O3,OLED status display,Fully achieved,OLED photograph
+O4,Automatic fan control,Fully achieved,Functional test record
+O5,Wi-Fi + HiveMQ MQTT connection,Fully achieved,Functional test record
+O6,Telemetry publication,Fully achieved,Functional test record
+O7,AUTO/ON/OFF commands,Fully achieved,Functional test record
+O8,MQTT reconnection handling,Partially achieved,Implemented in firmware; repeated recovery dataset absent
+O9,Quantitative performance evaluation,Partially achieved,Design parameters available; repeated measurements absent

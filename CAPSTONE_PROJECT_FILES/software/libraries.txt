@@ -1,0 +1,6 @@
+Arduino IDE
+ESP32 Arduino Core
+DHT sensor library
+PubSubClient
+Adafruit GFX Library
+Adafruit SSD1306 Library

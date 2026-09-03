@@ -1,0 +1,10 @@
+Function,Observed Behaviour,Result
+ESP32 startup,Firmware starts and relay is initialized OFF,Functional success
+Wi-Fi,Connection established; IP/RSSI printed,Functional success
+DHT11,Temperature/humidity variables updated when valid,Functional success
+MQ-2,ADC reading obtained from GPIO 34,Functional success
+OLED,Local status screen updated,Functional success
+AUTO mode,Fan responds to threshold logic,Functional success
+Manual ON/OFF,MQTT commands control fan,Functional success
+Telemetry,JSON payload includes temperature humidity gas fan and mode,Functional success
+Status,ESP32 ONLINE published after MQTT connection,Functional success

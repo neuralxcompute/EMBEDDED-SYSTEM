@@ -1,0 +1,2 @@
+Test No,Input Condition,Temperature C,Humidity %,MQ-2 ADC,Expected Fan,Measured Fan,Mode,Evidence,Status
+1,Ambient laboratory operating snapshot,27.2,45.0,105,OFF,OFF,AUTO,OLED photograph,Pass
